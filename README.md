@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/hero-mobile.svg">
-  <img src="./assets/hero.svg" width="100%" alt="Abdullah Latif — web × mobile × backend × AI">
+  <source media="(max-width: 600px)" srcset="/hero-mobile.svg">
+  <img src="/hero.svg" width="100%" alt="Abdullah Latif — web × mobile × backend × AI">
 </picture>
 
 <br/><br/>
@@ -15,7 +15,7 @@
 
 </div>
 
-<img src="./assets/divider.svg" width="100%" alt="">
+<img src="/divider.svg" width="100%" alt="">
 
 ## ⚡ At a Glance
 
@@ -27,7 +27,7 @@
 **Off the clock** — cinematic 3D web with Three.js · learning Unity by shipping a game  
 **Studying** — BSCS, final semester · Lahore Garrison University
 
-<img src="./assets/divider.svg" width="100%" alt="">
+<img src="/divider.svg" width="100%" alt="">
 
 ## 🚀 Selected Work
 
@@ -125,7 +125,7 @@ Entitlement checks live in the backend, not the UI. Stripe webhooks are idempote
 
 </details>
 
-<img src="./assets/divider.svg" width="100%" alt="">
+<img src="/divider.svg" width="100%" alt="">
 
 ## 🧰 Toolkit
 
@@ -160,7 +160,7 @@ Entitlement checks live in the backend, not the UI. Stripe webhooks are idempote
 
 </div>
 
-<img src="./assets/divider.svg" width="100%" alt="">
+<img src="/divider.svg" width="100%" alt="">
 
 ## 🧭 How I Build
 
@@ -172,7 +172,7 @@ Entitlement checks live in the backend, not the UI. Stripe webhooks are idempote
 
 **Ship, then own it** — deploys, TLS, process management and hardening are part of the job.
 
-<img src="./assets/divider.svg" width="100%" alt="">
+<img src="/divider.svg" width="100%" alt="">
 
 ## 🔭 Currently
 
@@ -199,7 +199,7 @@ reading:    hybrid search, grounding, and RAG evaluation
 
 </details>
 
-<img src="./assets/divider.svg" width="100%" alt="">
+<img src="/divider.svg" width="100%" alt="">
 
 ## 📬 Connect
 
