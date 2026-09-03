@@ -1,4 +1,4 @@
-<img src="./assets/hero.svg" width="100%" alt="Abdullah Latif — web × mobile × backend × AI" />
+<img src="/hero.svg" width="100%" alt="Abdullah Latif — web × mobile × backend × AI" />
 
 <p align="center">
   <a href="#-the-10-second-version"><img src="https://img.shields.io/badge/OVERVIEW-0D1117?style=for-the-badge&labelColor=0D1117&color=38BDF8" /></a>
