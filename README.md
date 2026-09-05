@@ -339,9 +339,6 @@ Studying while shipping production software, which means the theory gets tested 
   <img src="assets/terminal.svg" width="100%" alt="Right now: building an MBS retrieval assistant (chunking strategy, evals, cost modelling); designing scroll-driven 3D web experiences with Three.js and GSAP; learning Unity by building a full game; reading about hybrid search, grounding and RAG evaluation">
 </picture>
 
-<details>
-<summary><b>&nbsp;📊&nbsp; GitHub activity</b></summary>
-
 <br/>
 
 <div align="center">
@@ -352,8 +349,6 @@ Studying while shipping production software, which means the theory gets tested 
 <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=abdullah894&theme=github_dark" alt="Profile details and contribution graph">
 
 </div>
-
-</details>
 
 <img src="assets/divider.svg" width="100%" alt="">
 
