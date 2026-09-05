@@ -7,9 +7,10 @@
 
 <br/>
 
-<a href="#glance"><img src="assets/nav-overview.svg" height="32" alt="Overview"></a>&nbsp;
-<a href="#work"><img src="assets/nav-work.svg" height="32" alt="Work"></a>&nbsp;
-<a href="#stack"><img src="assets/nav-stack.svg" height="32" alt="Stack"></a>&nbsp;
+<a href="#about"><img src="assets/nav-about.svg" height="32" alt="About"></a>&nbsp;
+<a href="#experience"><img src="assets/nav-experience.svg" height="32" alt="Experience"></a>&nbsp;
+<a href="#projects"><img src="assets/nav-projects.svg" height="32" alt="Projects"></a>&nbsp;
+<a href="#skills"><img src="assets/nav-skills.svg" height="32" alt="Skills"></a>&nbsp;
 <a href="#approach"><img src="assets/nav-approach.svg" height="32" alt="Approach"></a>&nbsp;
 <a href="#now"><img src="assets/nav-now.svg" height="32" alt="Now"></a>&nbsp;
 <a href="#connect"><img src="assets/nav-contact.svg" height="32" alt="Contact"></a>
@@ -18,30 +19,68 @@
 
 <img src="assets/divider.svg" width="100%" alt="">
 
-<a name="glance"></a>
+<a name="about"></a>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/h-01-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/h-01-light.svg">
-  <img src="assets/h-01-light.svg" width="100%" height="64" alt="01 — At a Glance">
+  <img src="assets/h-01-light.svg" width="100%" height="64" alt="01 — Who I Am">
 </picture>
 
-> **Full-stack developer** building AI-powered products, healthcare platforms and cross-platform apps — interface, API, database and deploy.
+I'm **Abdullah Latif**, a full-stack developer who likes owning the whole problem: the interface people touch, the API and data model underneath it, and the server that keeps it running at 3 a.m.
 
-**Right now** — AI billing assistant for the Australian Medicare Benefits Schedule  
-**Core stack** — `NestJS` · `Next.js` · `React Native` · `PostgreSQL` · `TypeScript`  
-**AI work** — retrieval pipelines, embeddings and LLM assistants built *into* products  
-**Off the clock** — cinematic 3D web with Three.js · learning Unity by shipping a game  
-**Studying** — BSCS, final semester · Lahore Garrison University
+Most of my recent work is **AI-powered products and healthcare platforms** — systems where a wrong answer costs someone money or trust, so I care a lot about correctness, not just demos. I write TypeScript most days, reach for Python when the AI work needs it, and treat the database schema as the first design decision, not the last.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**📍 Based in** &nbsp;Lahore, Pakistan  
+**🎯 Focus** &nbsp;AI products · healthcare platforms · cross-platform apps  
+**🎓 Studying** &nbsp;BSCS, final semester
+
+</td>
+<td width="50%" valign="top">
+
+**🧠 Strongest at** &nbsp;NestJS · Next.js · React Native · PostgreSQL  
+**🤖 AI work** &nbsp;retrieval pipelines, embeddings, LLM assistants built *into* products  
+**🎮 Off the clock** &nbsp;cinematic 3D web with Three.js · shipping a Unity game
+
+</td>
+</tr>
+</table>
 
 <img src="assets/divider.svg" width="100%" alt="">
 
-<a name="work"></a>
+<a name="experience"></a>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/h-02-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/h-02-light.svg">
-  <img src="assets/h-02-light.svg" width="100%" height="64" alt="02 — Selected Work">
+  <img src="assets/h-02-light.svg" width="100%" height="64" alt="02 — Where I Work">
+</picture>
+
+### Full-Stack Developer &nbsp;·&nbsp; YOUR-COMPANY &nbsp;·&nbsp; <sub>START-YEAR – Present</sub>
+
+I build and maintain production systems for the **Australian healthcare market**, where every feature has to respect real billing and compliance rules before it can ship.
+
+**What I'm responsible for**
+
+- **End-to-end feature ownership** — schema design in PostgreSQL, the NestJS API, the Next.js or React Native interface, and the deploy on EC2 behind Nginx with PM2.
+- **AI that stays in its lane** — retrieval pipelines on `pgvector` with HNSW indexes over local embeddings, so the LLM explains and locates the right MBS item numbers while a deterministic engine handles the arithmetic.
+- **Modelling the domain correctly** — AHPRA practitioner verification, medical taxonomies and Medicare Benefits Schedule conventions, mapped into data models that hold up as the product grows.
+- **Rendering chosen per route** — SSR for authenticated views, ISR for public directory pages that need to be both indexable and fast.
+
+**Products I've shipped here** &nbsp;→&nbsp; Honicomb AI &nbsp;·&nbsp; Circi &nbsp;<sub>(details below)</sub>
+
+<img src="assets/divider.svg" width="100%" alt="">
+
+<a name="projects"></a>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h-03-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/h-03-light.svg">
+  <img src="assets/h-03-light.svg" width="100%" height="64" alt="03 — What I've Built">
 </picture>
 
 <table>
@@ -140,32 +179,87 @@ Entitlement checks live in the backend, not the UI. Stripe webhooks are idempote
 
 <img src="assets/divider.svg" width="100%" alt="">
 
-<a name="stack"></a>
+<a name="skills"></a>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/h-03-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/h-03-light.svg">
-  <img src="assets/h-03-light.svg" width="100%" height="64" alt="03 — Toolkit">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h-04-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/h-04-light.svg">
+  <img src="assets/h-04-light.svg" width="100%" height="64" alt="04 — What I Work With">
 </picture>
 
+Tools I use in production, grouped by the job they do. Depth first, breadth second.
+
+<table>
+<tr>
+<th align="left" width="18%">Area</th>
+<th align="left" width="42%">Stack</th>
+<th align="left">What I use it for</th>
+</tr>
+<tr>
+<td valign="top"><b>Frontend</b></td>
+<td valign="top">
+<img src="https://skillicons.dev/icons?i=react,nextjs,vue,ts,tailwind,redux&theme=dark" height="34" alt="React, Next.js, Vue, TypeScript, Tailwind, Redux"><br/>
+<sub>React · Next.js · Vue · TypeScript · Tailwind · Redux</sub>
+</td>
+<td valign="top">SSR/ISR web apps, dashboards and admin tooling with real state management, not just pages.</td>
+</tr>
+<tr>
+<td valign="top"><b>Mobile</b></td>
+<td valign="top">
+<img src="https://skillicons.dev/icons?i=react,expo&theme=dark" height="34" alt="React Native, Expo"><br/>
+<sub>React Native · Expo</sub>
+</td>
+<td valign="top">Cross-platform apps that share logic with the web but still feel native, like Skill Link.</td>
+</tr>
+<tr>
+<td valign="top"><b>Backend</b></td>
+<td valign="top">
+<img src="https://skillicons.dev/icons?i=nestjs,nodejs,express,py&theme=dark" height="34" alt="NestJS, Node.js, Express, Python"><br/>
+<sub>NestJS · Node.js · Express · Python</sub>
+</td>
+<td valign="top">Typed REST APIs, auth, idempotent webhooks, background jobs and the services AI features plug into.</td>
+</tr>
+<tr>
+<td valign="top"><b>Data</b></td>
+<td valign="top">
+<img src="https://skillicons.dev/icons?i=postgres,prisma,mongodb,supabase,firebase&theme=dark" height="34" alt="PostgreSQL, Prisma, MongoDB, Supabase, Firebase"><br/>
+<sub>PostgreSQL · pgvector · Prisma · MongoDB · Supabase · Firebase</sub>
+</td>
+<td valign="top">Schema design, migrations, geo queries and vector search living next to the relational data.</td>
+</tr>
+<tr>
+<td valign="top"><b>AI &amp; Retrieval</b></td>
+<td valign="top">
+<img src="https://img.shields.io/badge/OpenAI-090D18?style=flat-square&logo=openai&logoColor=white" alt="OpenAI"> <img src="https://img.shields.io/badge/RAG_Pipelines-090D18?style=flat-square&color=6366F1" alt="RAG pipelines"> <img src="https://img.shields.io/badge/Embeddings-090D18?style=flat-square&color=A855F7" alt="Embeddings"> <img src="https://img.shields.io/badge/n8n-090D18?style=flat-square&logo=n8n&logoColor=EA4B71" alt="n8n">
+</td>
+<td valign="top">Retrieval assistants with HNSW indexes, chunking strategies, evals and cost modelling, plus workflow automation.</td>
+</tr>
+<tr>
+<td valign="top"><b>Infrastructure</b></td>
+<td valign="top">
+<img src="https://skillicons.dev/icons?i=aws,docker,nginx,vercel,cloudflare,git&theme=dark" height="34" alt="AWS, Docker, Nginx, Vercel, Cloudflare, Git"><br/>
+<sub>AWS EC2 · Docker · Nginx · PM2 · Vercel · Cloudflare · Git</sub>
+</td>
+<td valign="top">Deploys, TLS, process management and hardening. If I shipped it, I run it.</td>
+</tr>
+<tr>
+<td valign="top"><b>Payments &amp; Realtime</b></td>
+<td valign="top">
+<img src="https://img.shields.io/badge/Stripe-090D18?style=flat-square&logo=stripe&logoColor=635BFF" alt="Stripe"> <img src="https://img.shields.io/badge/Klarna-090D18?style=flat-square&logo=klarna&logoColor=FFB3C7" alt="Klarna"> <img src="https://img.shields.io/badge/Socket.io-090D18?style=flat-square&logo=socketdotio&logoColor=white" alt="Socket.io">
+</td>
+<td valign="top">Subscriptions and entitlements enforced server-side, live updates over sockets.</td>
+</tr>
+<tr>
+<td valign="top"><b>Creative</b></td>
+<td valign="top">
+<img src="https://skillicons.dev/icons?i=threejs,unity,figma&theme=dark" height="34" alt="Three.js, Unity, Figma"><br/>
+<sub>Three.js · GSAP · Unity · Figma</sub>
+</td>
+<td valign="top">Scroll-driven 3D web experiences, game development and designing the screens before building them.</td>
+</tr>
+</table>
+
 <div align="center">
-
-<sub><b>F R O N T E N D</b></sub><br/>
-<img src="https://skillicons.dev/icons?i=react,nextjs,vue,ts,tailwind,redux&theme=dark" height="42" alt="React, Next.js, Vue, TypeScript, Tailwind, Redux">
-
-<sub><b>M O B I L E&nbsp;&nbsp;·&nbsp;&nbsp;B A C K E N D</b></sub><br/>
-<img src="https://skillicons.dev/icons?i=react,expo,nestjs,nodejs,express,py&theme=dark" height="42" alt="React Native, Expo, NestJS, Node.js, Express, Python">
-
-<sub><b>D A T A</b></sub><br/>
-<img src="https://skillicons.dev/icons?i=postgres,mongodb,prisma,supabase,firebase&theme=dark" height="42" alt="PostgreSQL, MongoDB, Prisma, Supabase, Firebase">
-
-<sub><b>I N F R A S T R U C T U R E</b></sub><br/>
-<img src="https://skillicons.dev/icons?i=aws,docker,nginx,vercel,cloudflare,git&theme=dark" height="42" alt="AWS, Docker, Nginx, Vercel, Cloudflare, Git">
-
-<sub><b>C R E A T I V E</b></sub><br/>
-<img src="https://skillicons.dev/icons?i=threejs,unity,figma&theme=dark" height="42" alt="Three.js, Unity, Figma">
-
-<br/>
 
 <img src="assets/marquee.svg" width="100%" height="40" alt="NestJS, Next.js, React Native, PostgreSQL, pgvector, TypeScript, Prisma, Expo, AWS, Docker, Nginx, Stripe, Socket.io, Three.js, GSAP, OpenAI, RAG pipelines, n8n, Supabase, Firebase, Tailwind, Vue, MongoDB, Unity, Figma">
 
@@ -176,23 +270,25 @@ Entitlement checks live in the backend, not the UI. Stripe webhooks are idempote
 <a name="approach"></a>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/h-04-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/h-04-light.svg">
-  <img src="assets/h-04-light.svg" width="100%" height="64" alt="04 — How I Build">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h-05-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/h-05-light.svg">
+  <img src="assets/h-05-light.svg" width="100%" height="64" alt="05 — How I Build">
 </picture>
+
+Four rules I keep coming back to. They're the difference between a demo and a product.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
 `01` &nbsp;**Data model first**  
-Most product bugs are schema decisions made too early.
+Most product bugs are schema decisions made too early. I design the tables and relationships before the screens.
 
 </td>
 <td width="50%" valign="top">
 
 `02` &nbsp;**Deterministic where it counts**  
-LLMs for language — never for money, compliance or arithmetic.
+LLMs for language — never for money, compliance or arithmetic. Those paths get code, tests and audit trails.
 
 </td>
 </tr>
@@ -200,13 +296,13 @@ LLMs for language — never for money, compliance or arithmetic.
 <td width="50%" valign="top">
 
 `03` &nbsp;**AI as leverage**  
-Claude Code and custom MCP servers in the daily loop — for speed, not instead of understanding.
+Claude Code and custom MCP servers are in my daily loop — for speed, not instead of understanding what ships.
 
 </td>
 <td width="50%" valign="top">
 
 `04` &nbsp;**Ship, then own it**  
-Deploys, TLS, process management and hardening are part of the job.
+Deploys, TLS, process management and hardening are part of the job, not someone else's ticket.
 
 </td>
 </tr>
@@ -214,12 +310,28 @@ Deploys, TLS, process management and hardening are part of the job.
 
 <img src="assets/divider.svg" width="100%" alt="">
 
+<a name="education"></a>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h-06-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/h-06-light.svg">
+  <img src="assets/h-06-light.svg" width="100%" height="64" alt="06 — Education">
+</picture>
+
+### BS Computer Science &nbsp;·&nbsp; Lahore Garrison University &nbsp;·&nbsp; <sub>final semester</sub>
+
+Studying while shipping production software, which means the theory gets tested against real systems the same week I learn it. The parts I lean on most: databases, distributed systems, and the algorithms behind search and retrieval.
+
+**Always learning** &nbsp;→&nbsp; hybrid search and RAG evaluation &nbsp;·&nbsp; Unity game development &nbsp;·&nbsp; scroll-driven 3D on the web
+
+<img src="assets/divider.svg" width="100%" alt="">
+
 <a name="now"></a>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/h-05-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/h-05-light.svg">
-  <img src="assets/h-05-light.svg" width="100%" height="64" alt="05 — Currently">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h-07-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/h-07-light.svg">
+  <img src="assets/h-07-light.svg" width="100%" height="64" alt="07 — Right Now">
 </picture>
 
 <picture>
@@ -248,12 +360,12 @@ Deploys, TLS, process management and hardening are part of the job.
 <a name="connect"></a>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/h-06-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/h-06-light.svg">
-  <img src="assets/h-06-light.svg" width="100%" height="64" alt="06 — Let's Connect">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h-08-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/h-08-light.svg">
+  <img src="assets/h-08-light.svg" width="100%" height="64" alt="08 — Let's Connect">
 </picture>
 
-Open to product work — especially AI-powered applications, healthcare systems, or hard backend problems.
+I'm open to product work — especially **AI-powered applications, healthcare systems, or hard backend problems**. If you're building something where correctness matters, I'd like to hear about it. Email is the fastest way to reach me.
 
 <p>
 <a href="mailto:YOUR-EMAIL"><img src="https://img.shields.io/badge/%20Email%20-090D18?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=090D18&color=1B2739" alt="Email"></a>
